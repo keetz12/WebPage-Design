@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<style type="text/css">
+		.row{display: flex;
+		}
+
+		.column{flex:1;
+			color: #3B3B3B;
+			background-color: #E8E5DF;
+			padding: 260px;
+			padding-top: 200px;
+			height: 70px;
+			margin: 0px;
+			font-size: 18px;
+
+		}
+	</style>
+	<style type="text/css">
+		.web{display: flex;
+		}
+
+		.name1{flex:1;
+			color: #3B3B3B;
+			background-color: #E8E5DF;
+			padding: 20px;
+			height: 160px;
+			margin: 0px;
+			font-size: 20px;
+
+		}
+	</style>
+</head>
+<form style="background-color: skyblue;">
+	<body>
+		<h1>Internship Application Form</h1>
+		<label>Name</label><br>
+		<input type="text"; placeholder="First" id="fname" name="fname">
+
+		<label></label>
+		<input type="text"; placeholder="Last" id="lname" name="lname" style="margin-inline: 10px;"><br><br>
+
+		<label>Email</label> <label style="margin-inline: 140px">DOB</label><br>
+		<input type="text"  id="Email" name="Email">
+		<input type="date"; placeholder="MM/DD/YYYY" id="dob" name="dob"style="margin-inline: 10px;"><br><br>
+
+		<label>Address</label><br>
+		<input type="text"; placeholder="Street Address" id="Address" name="Address"><br><br>
+		<input type="text"; placeholder="Street Address Line 2" id="Address1" name="Address1">
+
+	</form>
+</body>
+<footer>
+	<div class="row">
+		<div class="column">
+			<h1 style="padding-top: 40px;">Lets Chat</h1>
+		</div>
+		<div class="column">
+			<p>PHONE</p>
+			<p>6383831558</p> 
+			<p>EMAIL</p>
+			<p>dewydelights.com</p>
+			<p>SOCIAL</p>
+			<a href="https://www.instagram.com/artistkeerth/"><img src="C:\Users\keerthana\Downloads\6.png" height="20px" width="20px"></a>
+			<img src="C:\Users\keerthana\Downloads\5.png" height="20px" width="20px">
+			<img src="C:\Users\keerthana\Downloads\4.png" height="20px" width="20px">
+		</div>	
+	</div>
+</footer>
+<footer>
+	<div class="web">
+		<div class="name1">
+			<p><a href="https://dewydelights.blogspot.com/"><img src="C:\Users\keerthana\Downloads\1.png" height="20px" width="20px">hello@dewydelights.blogspot.com</a></p>
+		</div>
+		<div class="name1">
+			<p><a href="https://dewydelights.blogspot.com/"><img src="C:\Users\keerthana\Downloads\2.png" height="20px" width="20px">www.dewydelights.blogspot.com</a></p>
+		</div>	
+		<div class="name1">
+			<p><a href="https://dewydelights.blogspot.com/"><img src="C:\Users\keerthana\Downloads\3.png" height="20px" width="20px">@dewydelights.blogspot.com</a></p>		
+		</div>	
+	</div>
+</footer>
+</html>
