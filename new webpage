@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dewy Delights</title>
+	<link rel="stylesheet" type="text/css" href= "C:\Users\keerthana\Desktop\webpage design\New Wireframe\New Wireframe.css">
+	<style type="text/css">
+		.row{display: flex;
+		}
+
+		.column{flex:1;
+			color: #3B3B3B;
+			background-color: #E8E5DF;
+			padding: 260px;
+			padding-top: 200px;
+			height: 20px;
+			margin: 0px;
+			font-size: 18px;
+
+		}
+	</style>
+</head>
+<body>
+ <nav id="navbar">
+        <div class="container">
+          <h1><a href="#">Dewy Delights</a></h1>
+          <ul>
+            <li><a href="about.html">Home </a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+ 
+<div class="row">
+		<div class="container">
+ 	<img src="C:\Users\keerthana\Desktop\Web Design\Final.png" alt="Snow" style="width:120%;">
+ 	<div class="top-left" style="color: black;font-size: 57px; line-height: 80px;">MAKE YOUR<br> SKIN DEWY <br>WITH DEWY <br>DELIGHTS</div>
+ </div>
+	</div>
+ <div style="margin-top: -100 px;"> 
+</div>
+
+  
+
+
+</body>
+<footer>
+	<div class="row">
+		<div class="column">
+			<h1 style="padding-top: 40px;">Lets Chat</h1>
+		</div>
+		<div class="column">
+			<p>PHONE</p>
+			<p>6383831558</p> 
+			<p>EMAIL</p>
+			<p>dewydelights.com</p>
+			<p>SOCIAL</p>
+			<a href="https://www.instagram.com/artistkeerth/"><img src="C:\Users\keerthana\Downloads\6.png" height="20px" width="20px"></a>
+			<img src="C:\Users\keerthana\Downloads\5.png" height="20px" width="20px">
+			<img src="C:\Users\keerthana\Downloads\4.png" height="20px" width="20px">
+		</div>	
+	</div>
+</footer>
+</html>
